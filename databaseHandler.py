@@ -106,6 +106,7 @@ try:
                  loot_info TEXT
                  )""",
             """CREATE TABLE IF NOT EXISTS trade (
+                 resource_name TEXT,
                  highest_bid INT,
                  lowest_big INT,
                  margin INT

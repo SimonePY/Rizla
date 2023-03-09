@@ -104,6 +104,8 @@ celerybeat.pid
 # Environments
 .env
 .venv
+*.toml
+*.db
 env/
 venv/
 ENV/
